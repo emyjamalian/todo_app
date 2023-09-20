@@ -6,3 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello Testbash!"
+      
+  run unit test:
+    runs-on: ubuntu-latest
+    steps:
+      - cd src/webapp/api
+      - run: npm install
+      - run: npm run test
