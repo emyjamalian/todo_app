@@ -10,6 +10,6 @@ jobs:
   run-unit-test:
     runs-on: ubuntu-latest
     steps:
-      - run: cd ./testbash/todo_app/src/webapp/api
+      - run: cd /testbash/todo_app/src/webapp/api
       - run: npm install
       - run: npm run test
