@@ -1,0 +1,8 @@
+name: say-hello-testbash-actions
+run-name: ${{ github.actor }} Hello Testbash!
+on: [push]
+jobs:
+  hello-testbash:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Testbash!"
